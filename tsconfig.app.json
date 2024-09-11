@@ -24,8 +24,10 @@
 
     "paths": {
       "@Components/*":["src/Components/*"],
-      "@/*":["src/*"]
-    }
+      "@*":["src/*"],
+      "@assets/*":["src/assets/index.ts"]
+    },
+    "types": ["vite-plugin-svgr/client"]
   },
   "include": ["src"]
 }
